@@ -5,26 +5,48 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Dobro Medical Care</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
 	<body>
-		<header>
-			<div>
-				<nav>
-					<a href="./index.html">
-						Добро
-						<span>Medical Care</span>
-					</a>
-					<ul>
-						<li><a href="/index.html">Главная</a></li>
-						<li><a href="/index.html">Услуги</a></li>
-						<li><a href="">Цены</a></li>
-						<li><a href="">О нас</a></li>
-						<li><a href="">Контакты</a></li>
+		<header class="header__section section">
+			<div class="header__container container">
+				<a class="logo" href="./index.html">
+					<div class="logo__box">
+						<svg class="logo__icon" width="50" height="50">
+							<use href="./img/sprite.svg#icon-logo"></use>
+						</svg>
+						Dobro
+					</div>
+					<span class="logo-span">Medical Care</span>
+				</a>
+				<nav class="header__nav">
+					<ul class="nav-menu">
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="./index.html">Главная</a>
+						</li>
+						<li class="nav-menu__item"><a class="nav-menu__link" href="./index.html">Услуги</a></li>
+						<li class="nav-menu__item"><a class="nav-menu__link" href="./index.html">Цены</a></li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="./index.html">Контакты</a>
+						</li>
 					</ul>
 				</nav>
-				<ul>
-					<li><a href="/index.html">+380631111111</a></li>
-					<li><a href="/index.html">+380631111111</a></li>
+				<ul class="header__phone-menu">
+					<li class="phone-menu__item">
+						<a class="phone-menu__link" href="/index.html">+380937992778</a>
+					</li>
+					<li class="phone-menu__item">
+						<a class="phone-menu__link" href="/index.html">+380933663163</a>
+					</li>
 				</ul>
 				<ul>
 					<li></li>
