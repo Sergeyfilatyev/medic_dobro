@@ -1,0 +1,45 @@
+.hero__section {
+	height: 600px;
+	padding: 150px 25px;
+	text-align: center;
+	border-radius: 5px;
+	background-image: url(../img/hero-background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hero__title {
+	font-family: "titan one", sans-serif;
+	letter-spacing: 0.03em;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #4e4e4e;
+}
+.hero__text {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	color: #4e4e4e;
+	margin-bottom: 50px;
+}
+
+.hero__btn {
+	padding: 10px 32px;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	cursor: pointer;
+	color: #4e4e4e;
+	background-color: #dcfff9;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	transition: background-color 250ms linear;
+	&:hover,
+	&:focus {
+		color: #dcfff9;
+		background-color: #1ebb92;
+	}
+}

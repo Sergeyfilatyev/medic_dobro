@@ -1,0 +1,109 @@
+.modal-form {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(133, 198, 252, 0.9);
+	border-radius: 5px;
+}
+.modal-form__title {
+	margin-bottom: 12px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.01em;
+	color: #4e4e4e;
+}
+.modal-contact__label {
+	margin-bottom: 10px;
+}
+.modal-contact__name {
+	display: block;
+	margin-bottom: 4px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.01em;
+	color: #4e4e4e;
+}
+
+.modal-contact__input {
+	padding-left: 15px;
+	width: 100%;
+	height: 50px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.01em;
+	color: #4e4e4e;
+	border: 2px solid rgba(33, 33, 33, 0.2);
+	border-radius: 10px;
+	transition: border-color 250ms linear;
+	&:focus {
+		border-color: #1ebb92;
+		outline: none;
+	}
+}
+
+.modal-contact__wrap {
+	display: block;
+	position: relative;
+}
+
+.modal-comentary__label {
+	margin-bottom: 20px;
+}
+.modal-comentary__name {
+	display: block;
+	margin-bottom: 4px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.01em;
+	color: #4e4e4e;
+}
+.modal-comentary__area {
+	display: block;
+	padding: 12px 16px;
+	height: 100px;
+	width: 100%;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	resize: none;
+	transition: border-color 250ms linear;
+	letter-spacing: 0.01em;
+	color: #4e4e4e;
+	&:focus {
+		border-color: #1ebb92;
+		outline: none;
+	}
+	&::placeholder {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 1.2;
+		letter-spacing: 0.01em;
+		color: rgba(117, 117, 117, 0.5);
+	}
+}
+
+.modal-form__btn {
+	padding: 10px 55px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	background-color: #dcfff9;
+	color: #4e4e4e;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	transition: background-color 250ms linear;
+	&:focus,
+	&:hover {
+		color: #dcfff9;
+		background-color: #1ebb92;
+	}
+}

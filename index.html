@@ -19,7 +19,7 @@
 	<body>
 		<!-- HEADER -->
 
-		<header class="header__section section--no-padding">
+		<header class="header__section">
 			<div class="header__container container">
 				<a class="logo" href="./index.html">
 					<div class="logo__box">
@@ -180,6 +180,114 @@
 				</div>
 			</div>
 		</header>
+		<main>
+			<!-- HERO -->
+			<section class="hero__section">
+				<div class="hero__container container">
+					<h1 class="hero__title">Dobro</h1>
+
+					<p class="hero__text">Профессиональная медицинская помощь с выездом врача на дом.</p>
+					<button type="button" class="hero__btn" data-modal-open>Заказать услугу</button>
+				</div>
+			</section>
+			<!-- FEATURES -->
+			<section class="features__section">
+				<div class="features__container container">
+					<h2 class="features__title">
+						Профессиональные медицинские услуги с возможностью выезда на дом
+					</h2>
+					<p class="features__text">
+						Компания “Добро” — предоставляет медицинские услуги разным категориям граждан. Мы — это
+						команда профессиональных и опытных медицинских работников, которые ищут индивидуальный
+						подход к каждому клиенту, благодаря чему процесс лечения происходит легко и
+						непринужденно для пациента.
+					</p>
+					<p class="features__text">
+						«Добро» — это всегда наивысший уровень качества предоставления медицинских услуг
+						Обращаясь к нам, каждый может рассчитывать на квалифицированную медицинскую помощь с
+						выездом на дом. . Ведь мы — делаем все для того, чтобы вы могли лечиться в комфортных
+						для вас условиях. Обращайтесь — мы позаботимся о Вашем здоровье!
+					</p>
+					<ul class="features-menu">
+						<li class="features-menu__item">
+							<h3 class="features-menu__title">Опытные специалисты</h3>
+							<p class="features-menu__text">
+								У нас в штате сотрудники городской клинической больницы и скорой помощи.
+							</p>
+						</li>
+						<li class="features-menu__item">
+							<h3 class="features-menu__title">Доступные цены</h3>
+							<p class="features-menu__text">
+								У нас самые низкие цены в Одессе на медицинские услуги с вызовом на дом.
+							</p>
+						</li>
+						<li class="features-menu__item">
+							<h3 class="features-menu__title">Выезжаем на дом</h3>
+							<p class="features-menu__text">
+								Предоставляем медуслуги на дому, ведь помощь может понадобиться в любой момент.
+							</p>
+						</li>
+						<li class="features-menu__item">
+							<h3 class="features-menu__title">Полная анонимность</h3>
+							<p class="features-menu__text">
+								Вызывая медуслуги на дом, можете рассчитывать на анонимность, если это необходимо.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<!-- MODAL -->
+		<div class="backdrop is-hidden" data-modal>
+			<div class="backdrop__modal">
+				<button class="btn-close" type="button" data-modal-close>
+					<svg class="btn-close__icon" width="12" height="12">
+						<use href="./img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+
+				<!-- Contact form -->
+
+				<form class="modal-form">
+					<p class="modal-form__title">Оставьте свои данные, мы вам перезвоним.</p>
+					<label class="modal-contact__label">
+						<span class="modal-contact__name">Имя*</span>
+						<span class="modal-contact__wrap">
+							<input
+								class="modal-contact__input"
+								type="text"
+								name="user_name"
+								minlength="2"
+								required
+							/>
+						</span>
+					</label>
+					<label class="modal-contact__label">
+						<span class="modal-contact__name">Телефон*</span>
+						<span class="modal-contact__wrap">
+							<input
+								class="modal-contact__input"
+								type="tel"
+								name="user_phone"
+								required
+								minlength="9"
+							/>
+						</span>
+					</label>
+					<label class="modal-comentary__label">
+						<span class="modal-comentary__name">Комментарий</span>
+						<textarea
+							class="modal-comentary__area"
+							name="user_comentary"
+							placeholder="Введите текст"
+						></textarea>
+					</label>
+
+					<button class="modal-form__btn" type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
 		<script type="module" src="./js/mobile-menu.js"></script>
+		<script type="module" src="./js/modal-menu.js"></script>
 	</body>
 </html>
