@@ -17,7 +17,9 @@
 		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
 	<body>
-		<header class="header__section section">
+		<!-- HEADER -->
+
+		<header class="header__section section--no-padding">
 			<div class="header__container container">
 				<a class="logo" href="./index.html">
 					<div class="logo__box">
@@ -31,28 +33,153 @@
 				<nav class="header__nav">
 					<ul class="nav-menu">
 						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="./index.html">Главная</a>
+							<a class="nav-menu__link nav-menu__link--active" href="./index.html">Главная</a>
 						</li>
 						<li class="nav-menu__item"><a class="nav-menu__link" href="./index.html">Услуги</a></li>
 						<li class="nav-menu__item"><a class="nav-menu__link" href="./index.html">Цены</a></li>
 						<li class="nav-menu__item">
 							<a class="nav-menu__link" href="./index.html">Контакты</a>
 						</li>
+						<li class="nav-menu__item"><a class="nav-menu__link" href="./index.html">О нас</a></li>
 					</ul>
 				</nav>
 				<ul class="header__phone-menu">
 					<li class="phone-menu__item">
-						<a class="phone-menu__link" href="/index.html">+380937992778</a>
+						<a class="phone-menu__link" href="tel:+380937992778">+380937992778</a>
 					</li>
 					<li class="phone-menu__item">
-						<a class="phone-menu__link" href="/index.html">+380933663163</a>
+						<a class="phone-menu__link" href="tel:+380933663163">+380933663163</a>
 					</li>
 				</ul>
-				<ul>
-					<li></li>
-					<li></li>
+				<ul class="header-social">
+					<li class="header-social__item">
+						<a
+							href="https://t.me/sergeyfilatyev"
+							class="header-social__link"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<svg class="header-social__icon" width="30" height="30">
+								<use href="./img/sprite.svg#icon-telegram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="header-social__item">
+						<a
+							href="https://t.me/sergeyfilatyev"
+							class="header-social__link"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<svg class="header-social__icon" width="30" height="30">
+								<use href="./img/sprite.svg#icon-viber"></use>
+							</svg>
+						</a>
+					</li>
 				</ul>
+				<button type="button" class="mobile-btn" data-menu-open>
+					<svg class="mobile-btn__icon" width="40" height="30">
+						<use href="./img/sprite.svg#icon-burger"></use>
+					</svg>
+				</button>
+			</div>
+
+			<!-- MOBILE MENU -->
+
+			<div class="mobile-menu" data-menu>
+				<div class="mobile-menu__container container">
+					<button type="button" class="mobile-menu__close-btn" data-menu-close>
+						<svg class="mobile-menu__close-icon" width="18" height="18">
+							<use href="./img/sprite.svg#icon-close"></use>
+						</svg>
+					</button>
+					<div class="mobile-head">
+						<a class="logo" href="./index.html">
+							<div class="logo__box">
+								<svg class="logo__icon" width="50" height="50">
+									<use href="./img/sprite.svg#icon-logo"></use>
+								</svg>
+								Dobro
+							</div>
+							<span class="logo-span">Medical Care</span>
+						</a>
+						<ul class="mobile-nav">
+							<li class="mobile-nav__item">
+								<a href="./index.html" class="mobile-nav__link mobile-nav__link--active">Главная</a>
+							</li>
+
+							<li class="mobile-nav__item">
+								<a href="./" class="mobile-nav__link">Услуги</a>
+							</li>
+
+							<li class="mobile-nav__item">
+								<a href="./index.html" class="mobile-nav__link">Цены</a>
+							</li>
+							<li class="mobile-nav__item">
+								<a href="./index.html" class="mobile-nav__link">Контакты</a>
+							</li>
+							<li class="mobile-nav__item">
+								<a href="./index.html" class="mobile-nav__link">О нас</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mobile-foot">
+						<ul class="mobile-contact">
+							<li class="mobile-contact__item">
+								<a
+									href="tel:+380937992778"
+									class="mobile-contact__link mobile-contact__link--phone"
+								>
+									+380937992778
+								</a>
+							</li>
+							<li class="mobile-contact__item">
+								<a
+									href="tel:+380933663163"
+									class="mobile-contact__link mobile-contact__link--phone"
+								>
+									+380933663163
+								</a>
+							</li>
+							<li class="mobile-contact__item">
+								<a
+									href="mailto:dobro.medicalcare@gmail.com"
+									class="mobile-contact__link mobile-contact__link--mail"
+								>
+									dobro.medicalcare@gmail.com
+								</a>
+							</li>
+						</ul>
+						<ul class="mobile-social">
+							<li class="mobile-social__item">
+								<a
+									href="https://t.me/sergeyfilatyev"
+									class="mobile-social__link"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<svg class="mobile-social__icon" width="30" height="30">
+										<use href="./img/sprite.svg#icon-telegram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="mobile-social__item">
+								<a
+									href="https://t.me/sergeyfilatyev"
+									class="mobile-social__link"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<svg class="mobile-social__icon" width="30" height="30">
+										<use href="./img/sprite.svg#icon-viber"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</header>
+		<script type="module" src="./js/mobile-menu.js"></script>
 	</body>
 </html>
