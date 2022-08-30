@@ -155,6 +155,7 @@ a {
   .mobile-menu {
     z-index: 1;
     position: fixed;
+    overflow: scroll;
     top: 0;
     left: 0;
     width: 100%;
@@ -362,6 +363,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: scroll;
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms linear, visibility 250ms linear;
 }
