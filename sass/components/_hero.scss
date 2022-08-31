@@ -1,7 +1,6 @@
 .hero__section {
 	height: 600px;
-	padding: 150px 25px;
-	text-align: center;
+	padding: 100px 25px;
 	border-radius: 5px;
 	background-image: url(../img/hero-background.jpg);
 	background-size: cover;
@@ -20,12 +19,13 @@
 	font-size: 28px;
 	line-height: 1.2;
 	letter-spacing: 0.03em;
+	max-width: 480px;
 	color: #4e4e4e;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
 .hero__btn {
-	padding: 10px 32px;
+	padding: 14px 32px;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.2;
