@@ -12,6 +12,7 @@ ul {
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
   padding: 0;
@@ -523,8 +524,81 @@ a {
 @media screen and (min-width: 768px) {
   .callback__img {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
+  }
+}
+.price__section {
+  background-color: #ffffff;
+}
+
+.price__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 27px;
+  margin: 15px 0;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #4e4e4e;
+}
+
+.price__subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #4e4e4e;
+  background-color: #dcfff9;
+  border-radius: 5px;
+}
+
+.price-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #4e4e4e;
+  border-radius: 5px;
+}
+
+.price-menu__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 5px 5px;
+}
+
+.price-menu__title {
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #4e4e4e;
+}
+
+.price-menu__price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #4e4e4e;
+  background-color: #dcfff9;
+}
+
+.price-menu__wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .price-menu__wrap {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .price-menu__item {
+    width: 500px;
   }
 }
 .footer {

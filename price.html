@@ -33,10 +33,12 @@
 				<nav class="header__nav">
 					<ul class="nav-menu">
 						<li class="nav-menu__item">
-							<a class="nav-menu__link nav-menu__link--active" href="./index.html">Главная</a>
+							<a class="nav-menu__link" href="./index.html">Главная</a>
 						</li>
 						<li class="nav-menu__item"><a class="nav-menu__link" href="./index.html">Услуги</a></li>
-						<li class="nav-menu__item"><a class="nav-menu__link" href="./price.html">Цены</a></li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link nav-menu__link--active" href="./price.html">Цены</a>
+						</li>
 						<li class="nav-menu__item">
 							<a class="nav-menu__link" href="./index.html">Контакты</a>
 						</li>
@@ -181,143 +183,78 @@
 			</div>
 		</header>
 		<main>
-			<!-- HERO -->
-			<section class="hero__section">
-				<div class="hero__container container">
-					<h1 class="hero__title">Dobro</h1>
+			<!-- PRICE -->
+			<section class="price__section">
+				<div class="price__container container">
+					<h2 class="price__title">Цены</h2>
+					<div class="price-menu__wrap">
+						<ul class="price-menu">
+							<h3 class="price__subtitle">Уколы на дому</h3>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Внутримышечные уколы</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Внутривенные уколы</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Подкожные уколы</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+						</ul>
+						<ul class="price-menu">
+							<h3 class="price__subtitle">Капельницы на дому</h3>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">По назначению врача</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">При COVID-19</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+						</ul>
+						<ul class="price-menu">
+							<h3 class="price__subtitle">Помощь при COVID-19</h3>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Внутримышечные уколы</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Внутривенные уколы</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Подкожные уколы</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+						</ul>
 
-					<p class="hero__text">Профессиональная медицинская помощь с выездом врача на дом.</p>
-					<button type="button" class="hero__btn" data-modal-open>Заказать услугу</button>
-				</div>
-			</section>
-			<!-- FEATURES -->
-			<section class="features__section">
-				<div class="features__container container">
-					<h2 class="features__title">
-						Профессиональные медицинские услуги с возможностью выезда на дом
-					</h2>
-					<p class="features__text">
-						Компания “Добро” — предоставляет медицинские услуги разным категориям граждан. Мы — это
-						команда профессиональных и опытных медицинских работников, которые ищут индивидуальный
-						подход к каждому клиенту, благодаря чему процесс лечения происходит легко и
-						непринужденно для пациента.
-					</p>
-					<p class="features__text">
-						«Добро» — это всегда наивысший уровень качества предоставления медицинских услуг
-						Обращаясь к нам, каждый может рассчитывать на квалифицированную медицинскую помощь с
-						выездом на дом. . Ведь мы — делаем все для того, чтобы вы могли лечиться в комфортных
-						для вас условиях. Обращайтесь — мы позаботимся о Вашем здоровье!
-					</p>
-					<ul class="features-menu">
-						<li class="features-menu__item">
-							<h3 class="features-menu__title">Опытные специалисты</h3>
-							<p class="features-menu__text">
-								У нас в штате сотрудники городской клинической больницы и скорой помощи.
-							</p>
-						</li>
-						<li class="features-menu__item">
-							<h3 class="features-menu__title">Доступные цены</h3>
-							<p class="features-menu__text">
-								У нас самые низкие цены в Одессе на медицинские услуги с вызовом на дом.
-							</p>
-						</li>
-						<li class="features-menu__item">
-							<h3 class="features-menu__title">Выезжаем на дом</h3>
-							<p class="features-menu__text">
-								Предоставляем медуслуги на дому, ведь помощь может понадобиться в любой момент.
-							</p>
-						</li>
-						<li class="features-menu__item">
-							<h3 class="features-menu__title">Полная анонимность</h3>
-							<p class="features-menu__text">
-								Вызывая медуслуги на дом, можете рассчитывать на анонимность, если это необходимо.
-							</p>
-						</li>
-					</ul>
-				</div>
-			</section>
+						<ul class="price-menu">
+							<h3 class="price__subtitle">Другие услуги</h3>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Помощь при алкогольной интоксикации</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Помощь при пищевом отравлении</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
 
-			<!-- SERVICES -->
-
-			<section class="service__section">
-				<div class="service__container container">
-					<ul class="service-menu">
-						<li class="service-menu__item">
-							<div>
-								<h2 class="service-menu__title">
-									<svg class="logo__icon" width="30" height="30">
-										<use href="./img/sprite.svg#icon-logo"></use>
-									</svg>
-									Выезд медсестры
-								</h2>
-								<p class="service-menu__text">
-									Если необходимо поставить капельницу или сделать укол, Вы можете заказать услуги
-									медсестры с выездом на дом. Наши специалисты выезжают со всем необходимым для
-									предоставления Вам медицинской помощи. Благодаря высокому профессионализму и
-									большому опыту работы, медсестра на дому производит манипуляции быстро,
-									качественно и с заботой о каждом пациенте.
-								</p>
-							</div>
-							<div>
-								<img
-									class="service-img"
-									src="./img/medsestra-service-.jpg"
-									alt="выезд медсестры"
-									width="450"
-								/>
-								<button class="service__btn">Подробнее</button>
-							</div>
-						</li>
-
-						<li class="service-menu__item service-menu__item--reverse">
-							<div>
-								<h2 class="service-menu__title">
-									<svg class="logo__icon" width="30" height="30">
-										<use href="./img/sprite.svg#icon-logo"></use>
-									</svg>
-									Помощь при Covid-19
-								</h2>
-								<p class="service-menu__text">
-									Медицинская компания "Добро" оказывает жителям города Одесса профессиональную
-									помощь при коронавирусе на дому.В большинстве случаев нам удаётся обойтись без
-									госпитализации и победить болезнь лечением в домашних условиях.
-								</p>
-							</div>
-							<div>
-								<img
-									class="service-img"
-									src="./img/covid-service.jpg"
-									alt="помощь при ковид"
-									width="450"
-								/>
-								<button class="service__btn">Подробнее</button>
-							</div>
-						</li>
-						<li class="service-menu__item">
-							<div>
-								<h2 class="service-menu__title">
-									<svg class="logo__icon" width="30" height="30">
-										<use href="./img/sprite.svg#icon-logo"></use>
-									</svg>
-									Помощь при отравлении
-								</h2>
-								<p class="service-menu__text">
-									Служба «Добро» окажет квалифицированную помощь при отравлении некачественной пищей
-									или избыточным приемом алкоголя в кратчайшие сроки. Обращайтесь за детоксикацией
-									при отравлении к профессионалам — звоните прямо сейчас.
-								</p>
-							</div>
-							<div>
-								<img
-									class="service-img"
-									src="./img/otravlenie-service.jpg"
-									alt="помощь при отравлении"
-									width="450"
-								/>
-								<button class="service__btn">Подробнее</button>
-							</div>
-						</li>
-					</ul>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Забор крови</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Медицинское сопровождение на дому</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+							<li class="price-menu__item">
+								<h4 class="price-menu__title">Консультация врача терапевта</h4>
+								<p class="price-menu__price">150 грн</p>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 			<!-- CALLBACK -->
