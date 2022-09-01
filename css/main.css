@@ -541,7 +541,7 @@ a {
 }
 .phone-callback__btn {
   border-radius: 50%;
-  bottom: 50px;
+  bottom: 150px;
   right: -100px;
   position: fixed;
   border: none;
@@ -552,13 +552,14 @@ a {
 
 .price__section {
   background-color: #ffffff;
+  padding: 15px 0;
 }
 
 .price__title {
   text-align: center;
   font-weight: 700;
   font-size: 27px;
-  margin: 15px 0;
+  margin-bottom: 20px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #4e4e4e;
@@ -629,12 +630,6 @@ a {
   border-radius: 5px;
 }
 
-.footer-phone-social {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
 .footer__phone-menu {
   display: flex;
   flex-direction: column;
@@ -644,7 +639,9 @@ a {
 
 .footer-social {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 15px;
 }
 
 .footer-phone-menu__link {
@@ -661,13 +658,8 @@ a {
 
 .footer__nav-menu {
   display: flex;
-  justify-content: space-between;
-}
-@media screen and (min-width: 768px) {
-  .footer__nav-menu {
-    justify-content: center;
-    gap: 25px;
-  }
+  justify-content: center;
+  gap: 40px;
 }
 
 .footer-nav-menu__link {
