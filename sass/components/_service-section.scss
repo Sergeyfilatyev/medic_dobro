@@ -1,13 +1,13 @@
 .service__section {
 	background-color: #ffffff;
 	border-radius: 5px;
-	padding: 50px 10px;
+	padding: 50px 0;
 }
 .service-menu__item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 20px;
+	gap: 15px;
 	&--reverse {
 		flex-direction: row-reverse;
 	}

@@ -1,11 +1,17 @@
-.modal-form {
+.callback__section {
+	background-color: #ffffff;
+}
+.callback__container {
+	position: relative;
+}
+.callback-form {
 	padding: 40px;
 	display: flex;
 	flex-direction: column;
-	background-color: rgba(133, 198, 252, 0.9);
+	max-width: 500px;
 	border-radius: 5px;
 }
-.modal-form__title {
+.callback-form__title {
 	margin-bottom: 12px;
 	text-align: center;
 	font-weight: 700;
@@ -14,10 +20,10 @@
 	letter-spacing: 0.01em;
 	color: #4e4e4e;
 }
-.modal-contact__label {
+.callback-contact__label {
 	margin-bottom: 10px;
 }
-.modal-contact__name {
+.callback-contact__name {
 	display: block;
 	margin-bottom: 4px;
 	font-weight: 700;
@@ -27,7 +33,7 @@
 	color: #4e4e4e;
 }
 
-.modal-contact__input {
+.callback-contact__input {
 	padding-left: 15px;
 	width: 100%;
 	height: 50px;
@@ -45,53 +51,17 @@
 	}
 }
 
-.modal-contact__wrap {
+.callback-contact__wrap {
 	display: block;
 	position: relative;
 }
-
-.modal-comentary__label {
-	margin-bottom: 20px;
-}
-.modal-comentary__name {
-	display: block;
-	margin-bottom: 4px;
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 1.2;
-	letter-spacing: 0.01em;
-	color: #4e4e4e;
-}
-.modal-comentary__area {
-	display: block;
-	padding: 12px 16px;
-	height: 100px;
-	width: 100%;
-	border: 1px solid rgba(33, 33, 33, 0.2);
-	border-radius: 4px;
-	resize: none;
-	transition: border-color 250ms linear;
-	letter-spacing: 0.01em;
-	color: #4e4e4e;
-	&:focus {
-		border-color: #1ebb92;
-		outline: none;
-	}
-	&::placeholder {
-		font-weight: 700;
-		font-size: 20px;
-		line-height: 1.2;
-		letter-spacing: 0.01em;
-		color: rgba(117, 117, 117, 0.5);
-	}
-}
-.modal-btn-wrap {
+.callback-btn-wrap {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
 }
-.modal-form__btn {
+.callback-form__btn {
 	padding: 10px 10px;
 	font-weight: 700;
 	font-size: 20px;
@@ -108,5 +78,17 @@
 	&:hover {
 		color: #dcfff9;
 		background-color: #1ebb92;
+	}
+}
+@media screen and (max-width: 767px) {
+	.callback__img {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) {
+	.callback__img {
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
 }

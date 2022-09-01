@@ -245,10 +245,10 @@
 						<li class="service-menu__item">
 							<div>
 								<h2 class="service-menu__title">
-									Выезд медсестры
-									<svg class="logo__icon" width="40" height="40">
+									<svg class="logo__icon" width="30" height="30">
 										<use href="./img/sprite.svg#icon-logo"></use>
 									</svg>
+									Выезд медсестры
 								</h2>
 								<p class="service-menu__text">
 									Если необходимо поставить капельницу или сделать укол, Вы можете заказать услуги
@@ -272,10 +272,10 @@
 						<li class="service-menu__item service-menu__item--reverse">
 							<div>
 								<h2 class="service-menu__title">
-									Помощь при Covid-19
-									<svg class="logo__icon" width="40" height="40">
+									<svg class="logo__icon" width="30" height="30">
 										<use href="./img/sprite.svg#icon-logo"></use>
 									</svg>
+									Помощь при Covid-19
 								</h2>
 								<p class="service-menu__text">
 									Медицинская компания "Добро" оказывает жителям города Одесса профессиональную
@@ -296,10 +296,10 @@
 						<li class="service-menu__item">
 							<div>
 								<h2 class="service-menu__title">
-									Помощь при отравлении
-									<svg class="logo__icon" width="40" height="40">
+									<svg class="logo__icon" width="30" height="30">
 										<use href="./img/sprite.svg#icon-logo"></use>
 									</svg>
+									Помощь при отравлении
 								</h2>
 								<p class="service-menu__text">
 									Служба «Добро» окажет квалифицированную помощь при отравлении некачественной пищей
@@ -320,7 +320,136 @@
 					</ul>
 				</div>
 			</section>
+			<!-- CALLBACK -->
+			<section class="callback__section">
+				<div class="callback__container container">
+					<form class="callback-form">
+						<p class="callback-form__title">Обратный звонок</p>
+						<label class="callback-contact__label">
+							<span class="callback-contact__name">Имя*</span>
+							<span class="callback-contact__wrap">
+								<input
+									class="callback-contact__input"
+									type="text"
+									name="user_name"
+									minlength="2"
+									required
+								/>
+							</span>
+						</label>
+						<label class="callback-contact__label">
+							<span class="callback-contact__name">Телефон*</span>
+							<span class="callback-contact__wrap">
+								<input
+									class="callback-contact__input"
+									type="tel"
+									name="user_phone"
+									required
+									minlength="9"
+								/>
+							</span>
+						</label>
+						<div class="callback-btn-wrap">
+							<button class="callback-form__btn" type="submit">Отправить</button>
+							<button class="callback-form__btn" type="reset">Отмена</button>
+						</div>
+					</form>
+
+					<picture class="callback__img">
+						<source
+							srcset="./img/medsestra.webp 1x, ./img/medsestra.webp 2x"
+							media="(min-width: 768px)"
+							type="image/webp"
+						/>
+						<source
+							srcset="./img/medsestra.png 1x, ./img/medsestra.png 2x"
+							media="(min-width: 768px)"
+						/>
+
+						<img src="./img/medsestra.png" alt="медсестра" width="180" />
+					</picture>
+				</div>
+			</section>
 		</main>
+		<!-- FOOTER -->
+
+		<footer class="footer">
+			<div class="container footer__container">
+				<a class="logo" href="./index.html">
+					<div class="logo__box">
+						<svg class="logo__icon" width="50" height="50">
+							<use href="./img/sprite.svg#icon-logo"></use>
+						</svg>
+						Dobro
+					</div>
+					<span class="logo-span">Medical Care</span>
+				</a>
+				<div class="footer-phone-social">
+					<ul class="footer__phone-menu">
+						<li class="footer-phone-menu__item">
+							<a class="footer-phone-menu__link" href="tel:+380937992778">+380937992778</a>
+						</li>
+						<li class="footer-phone-menu__item">
+							<a class="footer-phone-menu__link" href="tel:+380933663163">+380933663163</a>
+						</li>
+						<li class="footer-phone-menu__item">
+							<a
+								href="mailto:dobro.medicalcare@gmail.com"
+								class="footer-phone-menu__link footer-phone-menu__link--mail"
+							>
+								dobro.medicalcare@gmail.com
+							</a>
+						</li>
+					</ul>
+					<ul class="footer-social">
+						<li class="footer-social__item">
+							<a
+								href="https://t.me/sergeyfilatyev"
+								class="footer-social__link"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<svg class="footer-social__icon" width="30" height="30">
+									<use href="./img/sprite.svg#icon-telegram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-social__item">
+							<a
+								href="https://t.me/sergeyfilatyev"
+								class="footer-social__link"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<svg class="footer-social__icon" width="30" height="30">
+									<use href="./img/sprite.svg#icon-viber"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="footer__nav-menu">
+					<li class="footer-nav-menu__item">
+						<a class="footer-nav-menu__link nav-menu__link--active" href="./index.html">Главная</a>
+					</li>
+					<li class="footer-nav-menu__item">
+						<a class="footer-nav-menu__link" href="./index.html">Услуги</a>
+					</li>
+					<li class="footer-nav-menu__item">
+						<a class="footer-nav-menu__link" href="./index.html">Цены</a>
+					</li>
+					<li class="footer-nav-menu__item">
+						<a class="footer-nav-menu__link" href="./index.html">Контакты</a>
+					</li>
+					<li class="footer-nav-menu__item">
+						<a class="footer-nav-menu__link" href="./index.html">О нас</a>
+					</li>
+				</ul>
+				<div class="footer-btn__wrap">
+					<button class="footer__btn" type="button" data-callback-open>Обратный звонок</button>
+				</div>
+			</div>
+		</footer>
 		<!-- MODAL -->
 		<div class="backdrop is-hidden" data-modal>
 			<div class="backdrop__modal">
@@ -367,11 +496,15 @@
 						></textarea>
 					</label>
 
-					<button class="modal-form__btn" type="submit">Отправить</button>
+					<div class="modal-btn-wrap">
+						<button class="modal-form__btn" type="submit">Отправить</button>
+						<button class="modal-form__btn" type="reset">Отмена</button>
+					</div>
 				</form>
 			</div>
 		</div>
 		<script type="module" src="./js/mobile-menu.js"></script>
 		<script type="module" src="./js/modal-menu.js"></script>
+		<script type="module" src="./js/callback-footer.js"></script>
 	</body>
 </html>
