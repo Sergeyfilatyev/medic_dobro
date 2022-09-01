@@ -107,7 +107,7 @@
 						</a>
 						<ul class="mobile-nav">
 							<li class="mobile-nav__item">
-								<a href="./index.html" class="mobile-nav__link mobile-nav__link--active">Главная</a>
+								<a href="./index.html" class="mobile-nav__link">Главная</a>
 							</li>
 
 							<li class="mobile-nav__item">
@@ -115,7 +115,7 @@
 							</li>
 
 							<li class="mobile-nav__item">
-								<a href="./index.html" class="mobile-nav__link">Цены</a>
+								<a href="./price.html" class="mobile-nav__link mobile-nav__link--active">Цены</a>
 							</li>
 							<li class="mobile-nav__item">
 								<a href="./index.html" class="mobile-nav__link">Контакты</a>
@@ -306,6 +306,11 @@
 						<img src="./img/medsestra.png" alt="медсестра" width="180" />
 					</picture>
 				</div>
+				<button class="phone-callback__btn" type="button" data-callbackPhonePrice-open>
+					<svg class="phone-callback__icon">
+						<use href="./img/sprite.svg#icon-phone"></use>
+					</svg>
+				</button>
 			</section>
 		</main>
 		<!-- FOOTER -->
@@ -373,7 +378,7 @@
 						<a class="footer-nav-menu__link" href="./index.html">Услуги</a>
 					</li>
 					<li class="footer-nav-menu__item">
-						<a class="footer-nav-menu__link" href="./index.html">Цены</a>
+						<a class="footer-nav-menu__link" href="./price.html">Цены</a>
 					</li>
 					<li class="footer-nav-menu__item">
 						<a class="footer-nav-menu__link" href="./index.html">Контакты</a>
@@ -383,14 +388,14 @@
 					</li>
 				</ul>
 				<div class="footer-btn__wrap">
-					<button class="footer__btn" type="button" data-callback-open>Обратный звонок</button>
+					<button class="footer__btn" type="button" data-footerPrice-open>Обратный звонок</button>
 				</div>
 			</div>
 		</footer>
 		<!-- MODAL -->
-		<div class="backdrop is-hidden" data-modal>
+		<div class="backdrop is-hidden" data-modal-price>
 			<div class="backdrop__modal">
-				<button class="btn-close" type="button" data-modal-close>
+				<button class="btn-close" type="button" data-callbackPhonePrice-close>
 					<svg class="btn-close__icon" width="12" height="12">
 						<use href="./img/sprite.svg#icon-close"></use>
 					</svg>
@@ -441,7 +446,7 @@
 			</div>
 		</div>
 		<script type="module" src="./js/mobile-menu.js"></script>
-		<script type="module" src="./js/modal-menu.js"></script>
-		<script type="module" src="./js/callback-footer.js"></script>
+		<script type="module" src="./js/callback-footer-price.js"></script>
+		<script type="module" src="./js/callback-phone-price.js"></script>
 	</body>
 </html>

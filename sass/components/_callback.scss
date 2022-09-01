@@ -1,3 +1,14 @@
+@keyframes phoneScale {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
 .callback__section {
 	background-color: #ffffff;
 }
@@ -91,4 +102,14 @@
 		top: 10px;
 		right: 10px;
 	}
+}
+.phone-callback__btn {
+	border-radius: 50%;
+	bottom: 50px;
+	right: -100px;
+	position: fixed;
+	border: none;
+	background-color: transparent;
+	animation: phoneScale 1500ms linear infinite;
+	cursor: pointer;
 }

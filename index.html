@@ -113,7 +113,7 @@
 							</li>
 
 							<li class="mobile-nav__item">
-								<a href="./index.html" class="mobile-nav__link">Цены</a>
+								<a href="./price.html" class="mobile-nav__link">Цены</a>
 							</li>
 							<li class="mobile-nav__item">
 								<a href="./index.html" class="mobile-nav__link">Контакты</a>
@@ -369,6 +369,11 @@
 						<img src="./img/medsestra.png" alt="медсестра" width="180" />
 					</picture>
 				</div>
+				<button class="phone-callback__btn" type="button" data-callbackPhone-open>
+					<svg class="phone-callback__icon">
+						<use href="./img/sprite.svg#icon-phone"></use>
+					</svg>
+				</button>
 			</section>
 		</main>
 		<!-- FOOTER -->
@@ -436,7 +441,7 @@
 						<a class="footer-nav-menu__link" href="./index.html">Услуги</a>
 					</li>
 					<li class="footer-nav-menu__item">
-						<a class="footer-nav-menu__link" href="./index.html">Цены</a>
+						<a class="footer-nav-menu__link" href="./price.html">Цены</a>
 					</li>
 					<li class="footer-nav-menu__item">
 						<a class="footer-nav-menu__link" href="./index.html">Контакты</a>
@@ -446,7 +451,7 @@
 					</li>
 				</ul>
 				<div class="footer-btn__wrap">
-					<button class="footer__btn" type="button" data-callback-open>Обратный звонок</button>
+					<button class="footer__btn" type="button" data-footer-open>Обратный звонок</button>
 				</div>
 			</div>
 		</footer>
@@ -503,8 +508,10 @@
 				</form>
 			</div>
 		</div>
+
 		<script type="module" src="./js/mobile-menu.js"></script>
 		<script type="module" src="./js/modal-menu.js"></script>
 		<script type="module" src="./js/callback-footer.js"></script>
+		<script type="module" src="./js/callback-phone.js"></script>
 	</body>
 </html>
