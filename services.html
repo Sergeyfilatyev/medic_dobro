@@ -183,62 +183,6 @@
 			</div>
 		</header>
 		<main>
-			<!-- HERO -->
-			<section class="hero__section">
-				<div class="hero__container container">
-					<h1 class="hero__title">Dobro</h1>
-
-					<p class="hero__text">Профессиональная медицинская помощь с выездом врача на дом.</p>
-					<button type="button" class="hero__btn" data-modal-open>Заказать услугу</button>
-				</div>
-			</section>
-			<!-- FEATURES -->
-			<section class="features__section">
-				<div class="features__container container">
-					<h2 class="features__title">
-						Профессиональные медицинские услуги с возможностью выезда на дом
-					</h2>
-					<p class="features__text">
-						Компания “Добро” — предоставляет медицинские услуги разным категориям граждан. Мы — это
-						команда профессиональных и опытных медицинских работников, которые ищут индивидуальный
-						подход к каждому клиенту, благодаря чему процесс лечения происходит легко и
-						непринужденно для пациента.
-					</p>
-					<p class="features__text">
-						«Добро» — это всегда наивысший уровень качества предоставления медицинских услуг
-						Обращаясь к нам, каждый может рассчитывать на квалифицированную медицинскую помощь с
-						выездом на дом. . Ведь мы — делаем все для того, чтобы вы могли лечиться в комфортных
-						для вас условиях. Обращайтесь — мы позаботимся о Вашем здоровье!
-					</p>
-					<ul class="features-menu">
-						<li class="features-menu__item">
-							<h3 class="features-menu__title">Опытные специалисты</h3>
-							<p class="features-menu__text">
-								У нас в штате сотрудники городской клинической больницы и скорой помощи.
-							</p>
-						</li>
-						<li class="features-menu__item">
-							<h3 class="features-menu__title">Доступные цены</h3>
-							<p class="features-menu__text">
-								У нас самые низкие цены в Одессе на медицинские услуги с вызовом на дом.
-							</p>
-						</li>
-						<li class="features-menu__item">
-							<h3 class="features-menu__title">Выезжаем на дом</h3>
-							<p class="features-menu__text">
-								Предоставляем медуслуги на дому, ведь помощь может понадобиться в любой момент.
-							</p>
-						</li>
-						<li class="features-menu__item">
-							<h3 class="features-menu__title">Полная анонимность</h3>
-							<p class="features-menu__text">
-								Вызывая медуслуги на дом, можете рассчитывать на анонимность, если это необходимо.
-							</p>
-						</li>
-					</ul>
-				</div>
-			</section>
-
 			<!-- SERVICES -->
 
 			<section class="service__section">
@@ -319,6 +263,111 @@
 								<button class="service__btn">Подробнее</button>
 							</div>
 						</li>
+						<li class="service-menu__item service-menu__item--reverse">
+							<div>
+								<h2 class="service-menu__title">
+									<svg class="logo__icon" width="30" height="30">
+										<use href="./img/sprite.svg#icon-logo"></use>
+									</svg>
+									Диагностика
+								</h2>
+								<p class="service-menu__text">
+									Прежде чем приступать к лечению болезни, необходимо определиться, что именно
+									происходит с организмом. Ведь обычные симптомы простуды, могут оказаться признаком
+									ВИЧ или Гепатита С.
+								</p>
+							</div>
+							<div>
+								<img
+									class="service-img"
+									src="./img/otravlenie-service.jpg"
+									alt="помощь при отравлении"
+									width="450"
+								/>
+								<button class="service__btn">Подробнее</button>
+							</div>
+						</li>
+						<li class="service-menu__item">
+							<div>
+								<h2 class="service-menu__title">
+									<svg class="logo__icon" width="30" height="30">
+										<use href="./img/sprite.svg#icon-logo"></use>
+									</svg>
+									Консультация врача
+								</h2>
+								<p class="service-menu__text">
+									Квалифицированная консультация доктора нужна не только, когда вы плохо себя
+									почувствовали или когда привычные таблетки не помогают.
+								</p>
+							</div>
+							<div>
+								<img
+									class="service-img"
+									src="./img/otravlenie-service.jpg"
+									alt="помощь при отравлении"
+									width="450"
+								/>
+								<button class="service__btn">Подробнее</button>
+							</div>
+						</li>
+						<li class="service-menu__item service-menu__item--reverse">
+							<div>
+								<h2 class="service-menu__title">
+									<svg class="logo__icon" width="30" height="30">
+										<use href="./img/sprite.svg#icon-logo"></use>
+									</svg>
+									Забор анализов на дому.
+								</h2>
+								<p class="service-menu__text">
+									Это современное направление развития лабораторной диагностики. Тысячи пациентов
+									уже оценили его, как удобный и более высокий уровень медицинского обслуживания.
+								</p>
+							</div>
+							<div>
+								<img
+									class="service-img"
+									src="./img/otravlenie-service.jpg"
+									alt="помощь при отравлении"
+									width="450"
+								/>
+								<button class="service__btn">Подробнее</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="about-us">
+				<div class="about-us__container container">
+					<h2 class="about-us__title">Как заказать услугу медицинская помощь на дому?</h2>
+					<div class="wrap-img-about">
+						<picture class="doctor__img">
+							<source
+								srcset="./img/doctor.webp 1x, ./img/doctor.webp 2x"
+								media="(min-width: 768px)"
+								type="image/webp"
+							/>
+							<source
+								srcset="./img/doctor.png 1x, ./img/doctor.png 2x"
+								media="(min-width: 768px)"
+							/>
+
+							<img src="./img/doctor.png" alt="медсестра" width="120" />
+						</picture>
+
+						<p class="about-us__text">
+							Связаться с нами очень просто — звоните в любое время суток. Мы приезжаем с
+							медицинскими препаратами и необходимым оборудованием. Качественно и безопасно
+							выполняем манипуляцию. По необходимости оговариваем следующий приезд. Позвонив в нашe
+							Медицинский Центр, вы точно останетесь довольны!
+						</p>
+					</div>
+					<h3 class="about-us__subtitle">Почему нужно обратиться к нам?</h3>
+					<ul class="about-us-menu">
+						<li class="about-us-menu__item">Высокий профессионализм и ответственность</li>
+						<li class="about-us-menu__item">Пунктуальность</li>
+						<li class="about-us-menu__item">Профильное образование и опыт работы сотрудников</li>
+						<li class="about-us-menu__item">Самые низкие цены городев</li>
+						<li class="about-us-menu__item">Экономия личного времени</li>
 					</ul>
 				</div>
 			</section>
