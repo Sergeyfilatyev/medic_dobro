@@ -33,19 +33,17 @@
 				<nav class="header__nav">
 					<ul class="nav-menu">
 						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="./index.html">Главная</a>
+							<a class="nav-menu__link nav-menu__link--active" href="./index.html">Главная</a>
 						</li>
 						<li class="nav-menu__item">
 							<a class="nav-menu__link" href="./services.html">Услуги</a>
 						</li>
+						<li class="nav-menu__item"><a class="nav-menu__link" href="./price.html">Цены</a></li>
 						<li class="nav-menu__item">
-							<a class="nav-menu__link nav-menu__link--active" href="./price.html">Цены</a>
+							<a class="nav-menu__link" href="#footer">Контакты</a>
 						</li>
 						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="./contact.html">Контакты</a>
-						</li>
-						<li class="nav-menu__item">
-							<a class="nav-menu__link" href="./review.html">Написать отзыв</a>
+							<a class="nav-menu__link" href="./review.html">Отзывы</a>
 						</li>
 					</ul>
 				</nav>
@@ -111,7 +109,7 @@
 						</a>
 						<ul class="mobile-nav">
 							<li class="mobile-nav__item">
-								<a href="./index.html" class="mobile-nav__link">Главная</a>
+								<a href="./index.html" class="mobile-nav__link mobile-nav__link--active">Главная</a>
 							</li>
 
 							<li class="mobile-nav__item">
@@ -119,13 +117,13 @@
 							</li>
 
 							<li class="mobile-nav__item">
-								<a href="./price.html" class="mobile-nav__link mobile-nav__link--active">Цены</a>
+								<a href="./price.html" class="mobile-nav__link">Цены</a>
 							</li>
 							<li class="mobile-nav__item">
-								<a href="./contact.html" class="mobile-nav__link">Контакты</a>
+								<a href="#footer" class="mobile-nav__link">Контакты</a>
 							</li>
 							<li class="mobile-nav__item">
-								<a href="./review.html" class="mobile-nav__link">Написать отзыв</a>
+								<a href="./review.html" class="mobile-nav__link">Отзывы</a>
 							</li>
 						</ul>
 					</div>
@@ -187,80 +185,79 @@
 			</div>
 		</header>
 		<main>
-			<!-- PRICE -->
-			<section class="price__section">
-				<div class="price__container container">
-					<h2 class="price__title">Цены</h2>
-					<div class="price-menu__wrap">
-						<ul class="price-menu">
-							<h3 class="price__subtitle">Уколы на дому</h3>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Внутримышечные уколы</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Внутривенные уколы</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Подкожные уколы</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-						</ul>
-						<ul class="price-menu">
-							<h3 class="price__subtitle">Капельницы на дому</h3>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">По назначению врача</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">При COVID-19</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-						</ul>
-						<ul class="price-menu">
-							<h3 class="price__subtitle">Помощь при COVID-19</h3>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Внутримышечные уколы</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Внутривенные уколы</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Подкожные уколы</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-						</ul>
+			<!--USLUGI HERO -->
+			<section class="uslugi-hero__section">
+				<div class="uslugi-hero__container container">
+					<a class="back-to-service" href="./services.html">Услуги ></a>
+					<h1 class="uslugi-hero__title">Консультация врача.</h1>
+					<picture class="doctor__img doctor__img--uslugi">
+						<source
+							srcset="./img/doctor.webp 1x, ./img/doctor.webp 2x"
+							media="(min-width: 768px)"
+							type="image/webp"
+						/>
+						<source srcset="./img/doctor.png 1x, ./img/doctor.png 2x" media="(min-width: 768px)" />
 
-						<ul class="price-menu">
-							<h3 class="price__subtitle">Другие услуги</h3>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Помощь при алкогольной интоксикации</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Помощь при пищевом отравлении</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Забор крови</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Медицинское сопровождение на дому</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-							<li class="price-menu__item">
-								<h4 class="price-menu__title">Консультация врача терапевта</h4>
-								<p class="price-menu__price">150 грн</p>
-							</li>
-						</ul>
-					</div>
+						<img src="./img/doctor.png" alt="медсестра" width="120" />
+					</picture>
+					<p class="uslugi-hero__text">
+						Квалифицированная консультация доктора нужна не только, когда вы плохо себя
+						почувствовали или когда привычные таблетки не помогают.
+					</p>
+					<button type="button" class="uslugi-hero__btn" data-modal-open>Заказать услугу</button>
 				</div>
 			</section>
+			<!-- USLUGI MAIN -->
+			<section class="uslugi-main__section">
+				<div class="uslugi-main__container container">
+					<a class="back-to-service" href="./services.html">Услуги</a>
+					<h2 class="uslugi-main__title">
+						Центр медицинской помощи "Добро" предлагает вызов врача на дом.
+					</h2>
+					<h3 class="uslugi-main__subtitle">
+						Медицинская консультация у терапевта необходима в случаях проявления незначительных, но
+						частых симптомов. Например, если у вас часто случаются простуды, «простреливает»
+						поясница или суставы. Это могут быть первые признаки серьезных хронических заболеваний.
+					</h3>
+					<p class="uslugi-main__text">
+						Обратите внимание: если у вас жар, острая боль, прочие отягощающие симптомы, не
+						усугубляйте своё состояние поездкой в поликлинику. Вызывайте на дом врача медицинского
+						центра «Добро». Позвоните по телефонам, указанным на сайте, либо закажите обратный
+						звонок. После того, как администратор уточнит адрес и согласует время визита, частный
+						терапевт на дом выедет немедленно. Получить консультацию врача могут пациенты всех
+						категорий. В том числе со случаями заболевания COVID-19. Доктор проводит обследование, а
+						медсестра проводит забор анализов. В случае тяжелого состояния врач выписывает
+						направление на госпитализацию пациента. Хорошо зарекомендовала себя практика, когда вас
+						и ваших близких обслуживает частный семейный врач. Он имеет полную информацию о
+						состоянии здоровья всех взрослых членов семьи. С учётом особенностей и контактов своих
+						пациентов, семейный доктор гораздо быстрее и точнее ставит диагноз.
+					</p>
+					<h3 class="uslugi-main__subtitle">Сколько стоит консультация врача на дому?</h3>
+					<p class="uslugi-main__text">Выезд от 500грн</p>
+					<ul class="med-menu">
+						<li class="med-menu__item">
+							Первичный прием специалиста: сбор сведений о начале и протекании болезни, жалобах
+							пациента, предыдущих болезнях и обследованиях, эффективности предыдущего лечения.
+						</li>
+						<li class="med-menu__item">Осмотр пациента.</li>
+						<li class="med-menu__item">Назначение лабораторных и аппаратных обследований.</li>
+						<li class="med-menu__item">Изучение результатов обследования, диагностику.</li>
+						<li class="med-menu__item">Назначение лечения.</li>
+						<li class="med-menu__item">
+							В случае необходимости – направление к другим специалистам.
+						</li>
+						<li class="med-menu__item">
+							Решение вопроса о режиме лечения и трудоспособности пациента.
+						</li>
+					</ul>
+
+					<svg class="spritz-icon">
+						<use href="./img/sprite.svg#icon-spritz"></use>
+					</svg>
+					<a class="uslugi-price__link" href="./price.html">Цены</a>
+				</div>
+			</section>
+
 			<!-- CALLBACK -->
 			<section class="callback__section">
 				<div class="callback__container container">
@@ -290,6 +287,7 @@
 								/>
 							</span>
 						</label>
+
 						<div class="callback-btn-wrap">
 							<button class="callback-form__btn" type="submit">Отправить</button>
 							<button class="callback-form__btn" type="reset">Отмена</button>
@@ -310,11 +308,24 @@
 						<img src="./img/medsestra.png" alt="медсестра" width="180" />
 					</picture>
 				</div>
-				<button class="phone-callback__btn" type="button" data-callbackPhonePrice-open>
+				<button class="phone-callback__btn" type="button" data-callbackPhone-open>
 					<svg class="phone-callback__icon">
 						<use href="./img/sprite.svg#icon-phone"></use>
 					</svg>
 				</button>
+			</section>
+			<section class="adress__section">
+				<div class="adress__container container">
+					<p class="adress__text">
+						<svg class="logo__icon" width="30" height="30">
+							<use href="./img/sprite.svg#icon-logo"></use>
+						</svg>
+						Мы работаем 24/7
+					</p>
+					<p class="adress__text">
+						По всем районам города Одесса, а также возможен выезд в область
+					</p>
+				</div>
 			</section>
 		</main>
 		<!-- FOOTER -->
@@ -350,17 +361,17 @@
 
 				<ul class="footer__nav-menu">
 					<li class="footer-nav-menu__item">
-						<a class="footer-nav-menu__link" href="./index.html">Главная</a>
+						<a class="footer-nav-menu__link nav-menu__link--active" href="./index.html">Главная</a>
 					</li>
 					<li class="footer-nav-menu__item">
 						<a class="footer-nav-menu__link" href="./services.html">Услуги</a>
 					</li>
 					<li class="footer-nav-menu__item">
-						<a class="footer-nav-menu__link nav-menu__link--active" href="./price.html">Цены</a>
+						<a class="footer-nav-menu__link" href="./price.html">Цены</a>
 					</li>
 
 					<li class="footer-nav-menu__item">
-						<a class="footer-nav-menu__link" href="./review.html">Написать отзыв</a>
+						<a class="footer-nav-menu__link" href="./review.html">Отзывы</a>
 					</li>
 				</ul>
 				<ul class="footer-social">
@@ -390,14 +401,14 @@
 					</li>
 				</ul>
 				<div class="footer-btn__wrap">
-					<button class="footer__btn" type="button" data-footerPrice-open>Обратный звонок</button>
+					<button class="footer__btn" type="button" data-footer-open>Обратный звонок</button>
 				</div>
 			</div>
 		</footer>
 		<!-- MODAL -->
-		<div class="backdrop is-hidden" data-modal-price>
+		<div class="backdrop is-hidden" data-modal>
 			<div class="backdrop__modal">
-				<button class="btn-close" type="button" data-callbackPhonePrice-close>
+				<button class="btn-close" type="button" data-modal-close>
 					<svg class="btn-close__icon" width="12" height="12">
 						<use href="./img/sprite.svg#icon-close"></use>
 					</svg>
@@ -447,8 +458,10 @@
 				</form>
 			</div>
 		</div>
+
 		<script type="module" src="./js/mobile-menu.js"></script>
-		<script type="module" src="./js/callback-footer-price.js"></script>
-		<script type="module" src="./js/callback-phone-price.js"></script>
+		<script type="module" src="./js/modal-menu.js"></script>
+		<script type="module" src="./js/callback-footer.js"></script>
+		<script type="module" src="./js/callback-phone.js"></script>
 	</body>
 </html>
