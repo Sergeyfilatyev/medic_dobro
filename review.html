@@ -125,7 +125,9 @@
 								<a href="./contact.html" class="mobile-nav__link">Контакты</a>
 							</li>
 							<li class="mobile-nav__item">
-								<a href="./review.html" class="mobile-nav__link mobile-nav__link--active">Отзывы</a>
+								<a href="./review.html" class="mobile-nav__link mobile-nav__link--active">
+									Написать отзыв
+								</a>
 							</li>
 						</ul>
 					</div>
@@ -245,7 +247,7 @@
 						<img src="./img/medsestra.png" alt="медсестра" width="180" />
 					</picture>
 				</div>
-				<button class="phone-callback__btn" type="button" data-callbackPhone-open>
+				<button class="phone-callback__btn" type="button" data-callbackPhoneReview-open>
 					<svg class="phone-callback__icon">
 						<use href="./img/sprite.svg#icon-phone"></use>
 					</svg>
@@ -340,14 +342,14 @@
 					</li>
 				</ul>
 				<div class="footer-btn__wrap">
-					<button class="footer__btn" type="button" data-footer-open>Обратный звонок</button>
+					<button class="footer__btn" type="button" data-footerReview-open>Обратный звонок</button>
 				</div>
 			</div>
 		</footer>
 		<!-- MODAL -->
-		<div class="backdrop is-hidden" data-modal>
+		<div class="backdrop is-hidden" data-modal-review>
 			<div class="backdrop__modal">
-				<button class="btn-close" type="button" data-modal-close>
+				<button class="btn-close" type="button" data-callbackPhoneReview-close>
 					<svg class="btn-close__icon" width="12" height="12">
 						<use href="./img/sprite.svg#icon-close"></use>
 					</svg>
@@ -399,8 +401,7 @@
 		</div>
 
 		<script type="module" src="./js/mobile-menu.js"></script>
-		<script type="module" src="./js/modal-menu.js"></script>
-		<script type="module" src="./js/callback-footer.js"></script>
-		<script type="module" src="./js/callback-phone.js"></script>
+		<script type="module" src="./js/callback-footer-review.js"></script>
+		<script type="module" src="./js/callback-phone-review.js"></script>
 	</body>
 </html>

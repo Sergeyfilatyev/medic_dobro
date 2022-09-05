@@ -401,7 +401,7 @@
 						<img src="./img/medsestra.png" alt="медсестра" width="180" />
 					</picture>
 				</div>
-				<button class="phone-callback__btn" type="button" data-callbackPhone-open>
+				<button class="phone-callback__btn" type="button" data-callbackPhoneService-open>
 					<svg class="phone-callback__icon">
 						<use href="./img/sprite.svg#icon-phone"></use>
 					</svg>
@@ -496,14 +496,14 @@
 					</li>
 				</ul>
 				<div class="footer-btn__wrap">
-					<button class="footer__btn" type="button" data-footer-open>Обратный звонок</button>
+					<button class="footer__btn" type="button" data-footerService-open>Обратный звонок</button>
 				</div>
 			</div>
 		</footer>
 		<!-- MODAL -->
-		<div class="backdrop is-hidden" data-modal>
+		<div class="backdrop is-hidden" data-modal-service>
 			<div class="backdrop__modal">
-				<button class="btn-close" type="button" data-modal-close>
+				<button class="btn-close" type="button" data-callbackPhoneService-close>
 					<svg class="btn-close__icon" width="12" height="12">
 						<use href="./img/sprite.svg#icon-close"></use>
 					</svg>
@@ -555,8 +555,7 @@
 		</div>
 
 		<script type="module" src="./js/mobile-menu.js"></script>
-		<script type="module" src="./js/modal-menu.js"></script>
-		<script type="module" src="./js/callback-footer.js"></script>
-		<script type="module" src="./js/callback-phone.js"></script>
+		<script type="module" src="./js/callback-footer-service.js"></script>
+		<script type="module" src="./js/callback-phone-service.js"></script>
 	</body>
 </html>
