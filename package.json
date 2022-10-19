@@ -5,7 +5,7 @@
   "homepage": "https://sergeyfilatyev.github.io/medic_dobro/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /medic_dobro/"
+    "build": "parcel build src/*.html --public-url /"
   },
   "repository": {
     "type": "git",
