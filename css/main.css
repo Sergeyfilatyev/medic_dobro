@@ -263,7 +263,7 @@ a {
   height: 600px;
   padding: 100px 0;
   border-radius: 5px;
-  background-image: url(../img/hero-background.jpg);
+  background-image: url(../src/img/hero-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -626,6 +626,11 @@ a {
   background-color: transparent;
   animation: phoneScale 1500ms linear infinite;
   cursor: pointer;
+}
+
+.geolocation-img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .adress__section {
