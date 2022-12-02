@@ -1,6 +1,6 @@
 body {
   background-color: #fafcfb;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 ul {
@@ -510,7 +510,7 @@ a {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
   100% {
     transform: scale(1);
@@ -620,12 +620,16 @@ a {
 .phone-callback__btn {
   border-radius: 50%;
   bottom: 150px;
-  right: -100px;
+  right: -80px;
   position: fixed;
   border: none;
   background-color: transparent;
-  animation: phoneScale 1500ms linear infinite;
+  animation: phoneScale 1200ms linear infinite;
   cursor: pointer;
+}
+
+.phone-callback__icon {
+  fill: rgba(240, 14, 14, 0.884);
 }
 
 .geolocation-img {
