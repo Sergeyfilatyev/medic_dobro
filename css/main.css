@@ -750,6 +750,7 @@ a {
 .back-to-service {
   display: inline-block;
   text-align: center;
+  padding: 10px 0;
   margin-bottom: 30px;
   width: 200px;
   margin-right: 0;
